@@ -42,7 +42,7 @@ def adadelta_optimizer(start_x, start_y, rho, iterations, epsilon = 1e-6):
     return np.array(path)
 st.set_page_config(page_title="AdaGrad vs AdaDelta", layout="wide")
 
-st.title("🥊 Le Duel : AdaGrad vs AdaDelta")
+st.title("Le Duel : AdaGrad vs AdaDelta")
 st.markdown("""
 **Objectif :** Montrer pourquoi AdaDelta est plus robuste qu'AdaGrad.
 * **AdaGrad (Rouge)** : Souffre d'un learning rate qui diminue trop vite ou nécessite un réglage manuel précis.
